@@ -1,0 +1,186 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2f363e;
+    margin: 0;
+}
+
+.stopwatch {
+    position: relative;
+    width: 800px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2f363e;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+}
+
+#laps-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    color: chartreuse;
+}
+
+#laps-list li {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.stopwatch {
+    position: relative;
+    inset: 4px;
+    background: #2f363e;
+    border-radius: 16px;
+    color: #ff0;
+    font-size: 20px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lap-button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: transparent; 
+    color: #fff;
+}
+
+.lap-button:hover {
+    background-color: #555;
+} 
+ */
+
+
+ /* Setting up default styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+/* Styling the body */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    margin: 0;
+}
+
+/* Styling the stopwatch container */
+.stopwatch {
+    position: relative;
+    width: 800px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1a1a1a;
+    border: 2px solid #ffbe00;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Styling the buttons section */
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 12px 25px;
+    margin: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border: 2px solid #ffbe00;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #ffbe00;
+    transition: all 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #ffbe00;
+    color: #1a1a1a;
+}
+
+/* Styling the list of laps */
+#laps-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    color: #ffbe00;
+}
+
+#laps-list li {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+/* Styling the stopwatch display */
+.stopwatch {
+    position: relative;
+    inset: 4px;
+    background: #1a1a1a;
+    border-radius: 20px;
+    color: #ffbe00;
+    font-size: 24px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Styling the lap button */
+.lap-button {
+    padding: 12px 25px;
+    margin: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border: 2px solid #ffbe00;
+    border-radius: 8px;
+    background-color: transparent; 
+    color: #ffbe00;
+    transition: all 0.3s ease;
+}
+
+.lap-button:hover {
+    background-color: #ffbe00;
+    color: #1a1a1a;
+}
